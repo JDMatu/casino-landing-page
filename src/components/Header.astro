@@ -1,0 +1,17 @@
+---
+import Nav from "./Nav.astro"
+---
+
+
+<header>
+  <Nav />
+</header>
+
+<script> 
+
+    document.getElementById("nav-toggle").addEventListener("click", function() {
+        document.getElementById("mobile-menu").classList.toggle("hidden");
+    });
+    
+
+</script>

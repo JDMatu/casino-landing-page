@@ -1,10 +1,27 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import SectionContainer from '../components/SectionContainer.astro';
+import { Image } from 'astro:assets';
 ---
 
-<Layout title="Welcome to Astro.">
+<Layout title="Lucky Food">
 	<main>
-		
+		<SectionContainer id="hero" class="h-[80vh]" style="background-image: url('../img/artwork.png');">
+			<div class="h-full w-full content-center">
+				<div class="w-fit p-2  backdrop-blur-sm">
+					<h1 class=" md:text-4xl font-bold">Lucky Food</h1>
+					<p class="text-lg">A collection of lucky foods from around the world.</p>
+				</div>
+			</div>
+		</SectionContainer>
+
+		<SectionContainer id="about" class="h-screen justify-center">
+			<h2 class="text-2xl font-bold">About</h2>
+			<p class="text-lg">Lucky foods are a part of many cultures around the world. They are believed to bring good luck and prosperity to those who eat them. This site is a collection of lucky foods from different cultures and countries. Explore the different foods and learn about the traditions and beliefs behind them.</p>
+		</SectionContainer>
+
+
+
 	</main>
 </Layout>
 
