@@ -1,0 +1,1 @@
+Proyecto colegial para desarrollar un landing page sobre una empresa ficticia
