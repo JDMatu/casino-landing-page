@@ -1,0 +1,14 @@
+---
+const { class: className} = Astro.props
+---
+
+<div class={`flex items-center ${className} z-0`}>
+    <span class="relative inline-flex overflow-hidden  p-[1px]">
+      <span
+        class="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#d9ad26_0%,#efb810_50%,#ffbf00_100%)]"
+      ></span>
+      <div class="inline-flex items-center justify-center w-full px-3 py-1 text-sm text-dorado-600 bg-gray-800 cursor-pointer backdrop-blur-3xl whitespace-nowrap">
+        <slot />
+      </div>
+    </span>
+</div>

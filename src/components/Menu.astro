@@ -1,0 +1,60 @@
+---
+import products from '../consts/products.ts';
+import Card2 from './Card2.astro';
+---
+
+<div class="bg-[url('/img/casino0.jpg')] bg-cover">
+    <div class="h-64 md:h-80 bg-black bg-opacity-30 justify-center">
+        <h1 class="text-4xl pt-20 font-serif font-bold text-dorado">Menu</h1>
+        <div class="mt-20 ">
+            <ul class="flex flex-wrap -mb-px text-sm font-medium text-center justify-center" id="default-styled-tab" data-tabs-toggle="#default-styled-tab-content" data-tabs-active-classes="text-dorado border-dorado" data-tabs-inactive-classes="text-white" role="tablist">
+                <li class="me-2" role="presentation">
+                    <button class="inline-block p-4 border-b-2 rounded-t-lg hover:text-gray-400" id="Cocteles-styled-tab" data-tabs-target="#styled-Cocteles" type="button" role="tab" aria-controls="Cocteles" aria-selected="false">Cocteles</button>
+                </li>
+                <li class="me-2" role="presentation">
+                    <button class="inline-block p-4 border-b-2 rounded-t-lg hover:text-gray-400 " id="Postres-styled-tab" data-tabs-target="#styled-Postres" type="button" role="tab" aria-controls="Postres" aria-selected="false">Postres</button>
+                </li>
+                <li class="me-2" role="presentation">
+                    <button class="inline-block p-4 border-b-2 rounded-t-lg hover:text-gray-400  " id="Entradas-styled-tab" data-tabs-target="#styled-Entradas" type="button" role="tab" aria-controls="Entradas" aria-selected="false">Entradas</button>
+                </li>
+        
+            </ul>
+        </div>
+    </div>
+</div>
+<div id="default-styled-tab-content" class="md:mx-96">
+    <div class="hidden p-4 rounded-lg" id="styled-Cocteles" role="tabpanel" aria-labelledby="Cocteles-tab">
+        {products.filter(product => product.category === 'cocteles').map(product => (
+            <Card2 
+                title={product.name} 
+                description={product.description} 
+                price={product.price} 
+                image={product.image} 
+            />
+        ))}
+        
+    </div>
+    <div class="hidden p-4 rounded-lg" id="styled-Postres" role="tabpanel" aria-labelledby="Postres-tab">
+        {products.filter(product => product.category === 'postres').map(product => (
+            <Card2 
+                title={product.name} 
+                description={product.description} 
+                price={product.price} 
+                image={product.image} 
+            />
+        ))}
+    </div>
+    <div class="hidden p-4 rounded-lg" id="styled-Entradas" role="tabpanel" aria-labelledby="Entradas-tab">
+        {products.filter(product => product.category === 'entradas').map(product => (
+            <Card2 
+                title={product.name} 
+                description={product.description} 
+                price={product.price} 
+                image={product.image} 
+            />
+        ))}
+    </div>
+   
+</div>
+
+
