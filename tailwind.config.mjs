@@ -13,6 +13,7 @@ export default {
 				'dorado-500': '#F2C12C',
 				'dorado-600': '#d9ad26',
 				'dorado-700': '#75660c',
+				'fondo': '13151a',
 			},
 		},
 	},

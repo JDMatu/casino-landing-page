@@ -1,0 +1,31 @@
+---
+import { languages } from "../i18n/ui";
+import {
+  getLangFromUrl,
+  useTranslatedPath,
+} from "../i18n/utils.ts";
+
+const lang = getLangFromUrl(Astro.url);
+const translatePath = useTranslatedPath(lang);
+
+import English from "./Icons/English.astro";
+import Spanish from "./Icons/spanish.astro";
+import France from "./Icons/france.astro";
+
+---
+
+{
+  Object.entries(languages).map(([langPrefix]) => {     
+    if (langPrefix == lang) return <></>
+    return (
+      <a class="hover:text-secondary language-link flex text-white " href={translatePath("/", langPrefix)}>
+        {langPrefix.toUpperCase()}
+        {langPrefix === "en" && <span class="ml-1"> <English class="mr-2" /> </span>}
+        {langPrefix === "es" && <span class="ml-1"> <Spanish class="mr-2" /> </span>}
+        {langPrefix === "fr" && <span class="ml-1"> <France class="mr-2" /> </span>}
+      </a>
+    )
+  })
+}
+
+

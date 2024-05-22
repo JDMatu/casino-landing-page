@@ -22,7 +22,7 @@ import Card2 from './Card2.astro';
         </div>
     </div>
 </div>
-<div id="default-styled-tab-content" class="md:mx-96">
+<div id="default-styled-tab-content" class="lg:max-w-screen-lg mx-auto">
     <div class="hidden p-4 rounded-lg" id="styled-Cocteles" role="tabpanel" aria-labelledby="Cocteles-tab">
         {products.filter(product => product.category === 'cocteles').map(product => (
             <Card2 
