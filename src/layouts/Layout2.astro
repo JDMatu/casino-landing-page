@@ -1,0 +1,88 @@
+---
+import Footer from '../components/Footer.astro';
+const {pageTitle} = Astro.props;
+
+const { currentLocale } = Astro;
+
+
+---
+
+<html lang={currentLocale}>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/logo.svg">
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{pageTitle}</title>
+		<meta name="description" content="Explore my portfolio showcasing my programming experience across various projects, with a future focus on Data Science and Machine Learning.">
+		
+	</head>
+	<body>
+        <div class="background-image"></div>
+        <button class=" w-fit mt-3 ml-2 md:mt-10 md:ml-6 hover:bg-secondary-100 rounded-xl" onclick="window.history.back()">
+            <svg class="hover:fill-dorado w-10 md:w-14" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="#ccd6f6">
+                <polygon points="15.293 3.293 6.586 12 15.293 20.707 16.707 19.293 9.414 12 16.707 4.707 15.293 3.293"/>
+                
+            </svg>            
+        </button>
+		<slot />
+        <Footer />
+
+		<style is:global>
+            :root {
+                --accent: 136, 58, 234;
+                --accent-light: 224, 204, 250;
+                --accent-dark: 49, 10, 101;
+                --accent-gradient: linear-gradient(
+                    45deg,
+                    rgb(var(--accent)),
+                    rgb(var(--accent-light)) 30%,
+                    white 60%
+                );
+            }
+            @font-face {
+                font-family: 'Atkinson';
+                src: url('/fonts/atkinson-regular.woff') format('woff');
+                font-weight: 400;
+                font-style: normal;
+                font-display: swap;
+            }
+            @font-face {
+                font-family: 'Atkinson';
+                src: url('/fonts/atkinson-bold.woff') format('woff');
+                font-weight: 700;
+                font-style: normal;
+                font-display: swap;
+            }
+        
+            html {
+                font-family: 'Atkinson',system-ui, sans-serif;
+                scroll-behavior: smooth;
+                background: #13151a;
+            }
+            body {
+                position: relative;
+                margin: 0;
+                padding: 0;
+            }
+            .background-image {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: calc(100vh - 18px);
+                background-image: url('/img/casino.png');
+                background-size: cover;
+                background-position: center;
+                opacity: 0.5; /* Adjust the opacity as needed */
+                z-index: -1; /* Ensure it stays behind the content */
+            }
+            button, slot, Footer {
+                position: relative;
+                z-index: 1; /* Ensure content stays above the background image */
+            }
+        </style>
+        
+	</body>
+
+</html>
