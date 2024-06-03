@@ -1,6 +1,10 @@
 ---
 import Button from "./Button.astro"
 
+import { getI18N } from "../i18n";
+const { currentLocale } = Astro;
+const i18n = getI18N({ currentLocale });
+
 ---
 
 <div class=" sm:flex sm:justify-center  md:max-w-6xl mx-auto mt-10">
@@ -8,15 +12,13 @@ import Button from "./Button.astro"
       <a href="#!">
         <img
           class="rounded-t-lg sm:rounded-tr-none h-full w-full object-cover"
-          src="/img/special/coctel.png"
+          src="/img/special/coctel.webp"
           alt="Hollywood Sign on The Hill" />
       </a>
       <div class="p-6">
-        <h5 class="mb-2 text-xl font-medium leading-tight">Card title</h5>
+        <h5 class="mb-2 text-xl font-medium leading-tight">{i18n.Special.Card1.title}</h5>
         <p class="mb-4 text-base">
-          This is a wider card with supporting text below as a natural
-          lead-in to additional content. This content is a little bit
-          longer.
+          {i18n.Special.Card1.description}
         </p>
         <div class="flex items-center">
           <svg class="w-5 h-5 text-yellow-400 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
@@ -37,7 +39,7 @@ import Button from "./Button.astro"
         </div>
       </div>
       <div class="mt-auto border-t-2 border-neutral-500 px-6 py-3 mx-2 ">
-        <Button> Order Now </Button>
+        <Button>{i18n.BTN.title3} $400 </Button>
       </div>
     </div>
   
@@ -45,14 +47,13 @@ import Button from "./Button.astro"
       <a href="#!">
         <img
           class="rounded-t-lg sm:rounded-none"
-          src="/img/special/coctel.png"
+          src="/img/special/burger.webp"
           alt="Palm Springs Road" />
       </a>
       <div class="p-6">
-        <h5 class="mb-2 text-xl font-medium leading-tight">Card title</h5>
+        <h5 class="mb-2 text-xl font-medium leading-tight">{i18n.Special.Card2.title}</h5>
         <p class="mb-4 text-base">
-          This card has supporting text below as a natural lead-in to
-          additional content.
+          {i18n.Special.Card2.description}
         </p>
         <div class="flex items-center">
           <svg class="w-5 h-5 text-yellow-400 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
@@ -73,7 +74,7 @@ import Button from "./Button.astro"
         </div>
       </div>
       <div class="mt-auto border-t-2 border-neutral-500 px-6 py-3 mx-2 ">
-        <Button> Order Now </Button>
+        <Button> {i18n.BTN.title3} $4400 </Button> 
       </div>
     </div>
   
@@ -81,15 +82,13 @@ import Button from "./Button.astro"
       <a href="#!">
         <img
           class="rounded-t-lg sm:rounded-tl-none"
-          src="/img/special/coctel.png"
+          src="/img/special/pasta.webp"
           alt="Los Angeles Skyscrapers" />
       </a>
       <div class="p-6">
-        <h5 class="mb-2 text-xl font-medium leading-tight">Card title</h5>
+        <h5 class="mb-2 text-xl font-medium leading-tight">{i18n.Special.Card3.title}</h5>
         <p class="mb-4 text-base">
-          This is a wider card with supporting text below as a natural
-          lead-in to additional content. This card has even longer content
-          than the first to show that equal height action.
+          {i18n.Special.Card3.description}
         </p>
         <div class="flex items-center">
           <svg class="w-5 h-5 text-yellow-400 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
@@ -110,7 +109,7 @@ import Button from "./Button.astro"
         </div>
       </div>
       <div class="mt-auto border-t-2 border-neutral-500 px-6 py-3 mx-2 ">
-        <Button> Order Now </Button>
+        <Button> {i18n.BTN.title3} $200 </Button>
       </div>
     </div>
 </div>

@@ -1,22 +1,26 @@
 ---
 import Button from "./Button.astro"
+
+import { getI18N } from "../i18n";
+const { currentLocale } = Astro;
+const i18n = getI18N({ currentLocale });
 ---
 
 <div class="h-full w-full bg-gray-900 bg-opacity-40 py-24 content-center text-center">
     <section class="w-full md:w-1/2 mx-auto flex flex-col gap-y-2">
 
-        <h1 class="text-sm md:text-xl text-gray-300 font-mono">"La mejor comida en Lucky Food"</h1>
+        <h1 class="text-md md:text-2xl gradient-text font-sofia">{i18n.Hero.title}</h1>
 
-        <h1 class="text-2xl md:text-6xl font-serif gradient-text text-wrap">Descubre la Exquisitez de la Cocina Internacional</h1>
+        <h1 class="text-2xl md:text-6xl font-serif gradient-text text-wrap">{i18n.Hero.title2}</h1>
         <!-- Slogan -->
         <!-- <p class="text-xl text-gray-300">Bienvenido a Lucky Food, donde cada plato es una aventura culinaria.</p> -->
-        <p class="text-sm md:text-xl text-gray-300 w-4/6 m-auto text-wrap font-sans">En Lucky Food, te invitamos a deleitarte con una amplia variedad de platos preparados con ingredientes frescos y de la más alta calidad. Tenemos algo para satisfacer todos los paladares. </p>
+        <p class="text-sm md:text-xl text-gray-200 w-4/6 m-auto text-wrap font-sans">{i18n.Hero.title3}</p>
         <!-- <h2 class="text-2xl">The best food of Costa Rica</h2> -->
 
         <div class="pt-10">
 
             <a href="#menu">
-                <Button class="justify-center">Ver Menu ==</Button>
+                <Button class="justify-center">{i18n.BTN.title}</Button>
             </a>
             
         </div>

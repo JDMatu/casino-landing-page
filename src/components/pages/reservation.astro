@@ -1,5 +1,7 @@
 ---
-
+import { getI18N } from "../../i18n";
+const { currentLocale } = Astro;
+const i18n = getI18N({ currentLocale });
 
 
 ---
@@ -9,10 +11,10 @@
 
 
 <section class="section">
-    <div class="container mx-auto">
+    <div class="container mx-auto text-center">
         <div class="text-center text-xl md:text-4xl gradient-text pb-10">
-            <h1 class="title">Reservation</h1>
-            <p>Reservation form goes here</p>
+            <h1 class="title"> {i18n.Reservaciones.title} </h1>
+            <p class="text-gray-200 text-xs md:text-xl mx-auto  max-w-4xl px-4"> {i18n.Reservaciones.text1} </p>
         </div>
 
         <section class="md:mx-20">
@@ -21,30 +23,30 @@
 
                     <div class="grid grid-cols-2 gap-4 my-4 px-2">
                         <div class="relative col-span-2">
-                            <label for="email-input" class="sr-only">Email:</label>
-                            <input type="email" id="email-input" class="border   text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 bg-gray-300 border-gray-600  text-black " placeholder="Email" required />
+                            <label for="email-input" class="sr-only">{i18n.Reservaciones.input1}:</label>
+                            <input type="email" id="email-input" class="border   text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 bg-gray-300 border-gray-600  text-black " placeholder={i18n.Reservaciones.input1} required />
                         </div>
                     </div>
                     <div class="grid grid-cols-2 gap-4 my-4 px-2">
                         <div class="relative col-span-2">
                             <label for="people-input" class="sr-only">People:</label>
                             <select id="people-input" class="border   text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 bg-gray-300 border-gray-600  text-black " required>
-                                <option value="" disabled selected>People</option>
-                                <option value="1">1 person</option>
-                                <option value="2">2 people</option>
-                                <option value="3">3 people</option>
-                                <option value="4">4 people</option>
-                                <option value="5">5 people</option>
-                                <option value="6">6 people</option>
-                                <option value="8">8 people</option>
-                                <option value="10">10 people</option>
+                                <option value="" disabled selected>{i18n.Reservaciones.input2}</option>
+                                <option value="1">1 {i18n.Reservaciones.input2}</option>
+                                <option value="2">2 {i18n.Reservaciones.input2}</option>
+                                <option value="3">3 {i18n.Reservaciones.input2}</option>
+                                <option value="4">4 {i18n.Reservaciones.input2}</option>
+                                <option value="5">5 {i18n.Reservaciones.input2}</option>
+                                <option value="6">6 {i18n.Reservaciones.input2}</option>
+                                <option value="8">8 {i18n.Reservaciones.input2}</option>
+                                <option value="10">10 {i18n.Reservaciones.input2}</option>
                             </select>
                         </div>
                     </div>
                     <div class="grid grid-cols-2 gap-4 my-4 px-2">
                         <div class="relative col-span-2">
                             <label for="date-input" class="sr-only">Date:</label>
-                            <input datepicker datepicker-format="dd/mm/yyyy" id="date-input" type="text" class="border   text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 bg-gray-300 border-gray-600  text-black " placeholder="Date" required />
+                            <input datepicker datepicker-format="dd/mm/yyyy" id="date-input" type="text" class="border   text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 bg-gray-300 border-gray-600  text-black " placeholder={i18n.Reservaciones.input3} required />
                         </div>
                     </div>
                     <div class="grid grid-cols-2 gap-4 my-4 px-2">
@@ -59,7 +61,7 @@
                     <div class="grid grid-cols-2 gap-4 my-4 px-2">
                         <div class="relative col-span-2">
                             <label for="card-holder-input" class="sr-only">Card holder:</label>
-                            <input type="text" id="card-holder-input" class="border   text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 bg-gray-300 border-gray-600  text-black " placeholder="Card holder" required />
+                            <input type="text" id="card-holder-input" class="border   text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 bg-gray-300 border-gray-600  text-black " placeholder={i18n.Reservaciones.input4} required />
                         </div>
                     </div>
                     <label for="card-number-input" class="sr-only">Card number:</label>
@@ -95,7 +97,7 @@
                     <div class="grid grid-cols-2 gap-4 my-4 px-2">
                         <div class="relative col-span-2 ">
                             <label for="billing-address-input" class="sr-only">Billing address:</label>
-                            <input type="text" id="billing-address-input" class="border   text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 bg-gray-300 border-gray-600  text-black " placeholder="Billing address" required />
+                            <input type="text" id="billing-address-input" class="border   text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 bg-gray-300 border-gray-600  text-black " placeholder={i18n.Reservaciones.input6} required />
                         </div>
                     </div>
                     <!-- Buton al fondo del contenedor -->

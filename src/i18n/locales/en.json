@@ -1,0 +1,371 @@
+{
+    "Hero":{
+        "title":"The Best Food at Lucky Food",
+        "title2":"Discover the Exquisite Taste of International Cuisine",
+        "title3":"At Lucky Food, we invite you to indulge in a wide variety of dishes prepared with fresh, high-quality ingredients. We have something to satisfy every palate."
+    },
+    "Special":{
+        "title":"Special of the Day",
+        "description":"Surprise yourself with our carefully selected and prepared daily specials, designed to provide you with an exceptional culinary experience.",
+        "Card1":{
+            "title":"Cravings",
+            "description":"42 Below Vodka, Fernet Branca, peach liqueur, and lemon juice"
+        },
+        "Card2":{
+            "title":"The Strip Steakhouse Burger",
+            "description":"A gourmet burger with blue cheese, crispy onions, and a red wine reduction."
+        },
+        "Card3":{
+            "title":"Tortellini de Tesoro Italiano",
+            "description":"Tortellini stuffed with ricotta cheese and spinach, bathed in a homemade tomato sauce, like a hidden treasure on the table of an Italian casino."
+        }
+
+    },
+    "Menu":{
+        "title":"Menu"
+    },
+    "About":{
+        "title":"Our Story",
+        "text1":"Lucky Food was born out of a passion for international cuisine and a desire to offer a superior culinary experience. Our team of expert chefs combines traditional techniques with a modern twist, creating dishes that delight all the senses.",
+        "text2":"At Lucky Food, every detail is designed to offer you an unforgettable experience. Our cozy and elegant atmosphere, along with our friendly service, will make you feel right at home.",
+        "text3":"We are committed to using only the finest ingredients, ensuring freshness and quality in every dish. Our passion for gastronomy is reflected in every culinary creation, offering authentic flavors and impeccable presentations."
+    },
+    "Footer":{
+        "Title1":"LUCK IS ON YOUR PLATE",
+        "title2":"Schedule",
+        "2text1":"Mon/Fri: 8pm to 2 am",
+        "2text2":"Saturday 6pm to 2 am",
+        "2text3":"Sunday 6pm to 12 am",
+        "title3":"Menu",
+        "3text1":"Cocktails",
+        "3text2":"Meats",
+        "3text3":"Desserts",
+        "3text4":"Drinks",
+        "title4":"Legal",
+        "4text1":"Terms and Conditions",
+        "4text2":"Privacy Policy",
+        "4text3":"License",
+        "title5":"@2024 Lucky Food™. All rights reserved."
+    },
+    "Productos":{
+        "hamburguesas":{
+            "1":{
+                "label": "Burgers",
+                "name": "Jackpot Jalapeño Burger",
+                "category": "burgers",
+                "description": "A spicy burger with pepper jack cheese, sliced jalapeños, and a special chipotle sauce",
+                "price": 3500,
+                "image": "/img/special/coctel.png"
+            },
+            "2":{
+                "label": "Burgers",
+                "name": "High Roller Hawaiian Burger",
+                "category": "burgers",
+                "description": "A delicious combination of ham, grilled pineapple, provolone cheese, and teriyaki sauce.",
+                "price": 3800,
+                "image": "/img/special/coctel.png"
+            },
+            "3":{
+                "label": "Burgers",
+                "name": "The Strip Steakhouse Burger",
+                "category": "burgers",
+                "description": "A gourmet burger with blue cheese, crispy onions, and a red wine reduction.",
+                "price": 4400,
+                "image": "/img/special/coctel.png"
+            },
+            "4":{
+                "label": "Burgers",
+                "name": "Lucky 7 BBQ Burger",
+                "category": "burgers",
+                "description": "A pulled pork burger with homemade barbecue sauce, onion rings, and pickles.",
+                "price": 3500,
+                "image": "/img/special/coctel.png"
+            },
+            "5":{
+                "label": "Burgers",
+                "name": "Vegas Vic Volcano Burger",
+                "category": "burgers",
+                "description": "An explosive burger with chili con carne, melted nacho cheese, and pickled jalapeños",
+                "price": 3700,
+                "image": "/img/special/coctel.png"
+            }
+           
+        },
+        "entradas":{
+            "1":{
+                "label": "Appetizers",
+                "name": "Blackjack Mac & Cheese",
+                "category": "appetizers",
+                "description": "Baked macaroni and cheese with a blend of gourmet cheeses and topped with crispy bread crumbs.",
+                "price": 400,
+                "image": "/img/special/coctel.png"
+            },
+            "2":{
+                "label": "Appetizers",
+                "name": "Lucky Seven Seafood Paella",
+                "category": "appetizers",
+                "description": "A hearty Spanish paella with shrimp, mussels, squid, and chorizo, cooked with saffron and peas.",
+                "price": 100,
+                "image": "/img/special/coctel.png"
+            },
+            "3":{
+                "label": "Appetizers",
+                "name": "Sin City Bourbon Glazed Salmon",
+                "category": "appetizers",
+                "description": "Grilled salmon fillet with bourbon and honey glaze, served with cauliflower puree and roasted asparagus",
+                "price": 300,
+                "image": "/img/special/coctel.png"
+            },
+            "4":{
+                "label": "Appetizers",
+                "name": "High Roller Ribeye Steak",
+                "category": "appetizers",
+                "description": "A juicy grilled ribeye steak with a red wine and herb sauce, served with scalloped potatoes and grilled asparagus",
+                "price": 200,
+                "image": "/img/special/coctel.png"
+            }
+        },
+        "pastas":{
+            "1":{
+                "label": "Pastas",
+                "name": "Penne al Póker Picante",
+                "category": "pastas",
+                "description": "Penne cooked al dente and mixed with a spicy tomato sauce, Italian sausage, and peppers, to add an exciting touch like in a poker game.",
+                "price": 400,
+                "image": "/img/special/coctel.png"
+            },
+            "2":{
+                "label": "Pastas",
+                "name": "Rigatoni de Ruleta Rusa",
+                "category": "pastas",
+                "description": "Rigatoni served with a creamy vodka and tomato sauce, with crispy bacon pieces to add a touch of risk",
+                "price": 300,
+                "image": "/img/special/coctel.png"
+            },
+            "3":{
+                "label": "Pastas",
+                "name": "Fettuccine del Flop Florentino",
+                "category": "pastas",
+                "description": "Fettuccine covered in a spinach and parmesan cheese sauce, inspired by the flop on a poker table.",
+                "price": 200,
+                "image": "/img/special/coctel.png"
+            },
+            "4":{
+                "label": "Pastas",
+                "name": "Linguine del Lujo del Lago",
+                "category": "pastas",
+                "description": "Linguine with a creamy shrimp and scallop sauce, evoking the elegance of high-end casinos located next to lakes.",
+                "price": 200,
+                "image": "/img/special/coctel.png"
+            },
+            "5":{
+                "label": "Pastas",
+                "name": "Spaghetti del Straight Flush",
+                "category": "pastas",
+                "description": "Spaghetti with a clam and white wine sauce, evoking the feeling of being on top with a royal flush in hand.",
+                "price": 200,
+                "image": "/img/special/coctel.png"
+            },
+            "6":{
+                "label": "Pastas",
+                "name": "Tortellini de Tesoro Italiano",
+                "category": "pastas",
+                "description": "Tortellini filled with ricotta cheese and spinach, bathed in a homemade tomato sauce, like a treasure hidden on an Italian casino table.",
+                "price": 200,
+                "image": "/img/special/coctel.png"
+            }
+        },
+        "cocteles":{
+            "1":{
+                "label": "Cocktails",
+                "name": "Cravings",
+                "category": "cocktails",
+                "description": "Vodka 42 Below, fernet Branca, peach liqueur, and lemon juice",
+                "price": 400,
+                "image": "/img/special/coctel.png"
+            },
+            "2":{
+                "label": "Cocktails",
+                "name": "Rising Sun",
+                "category": "cocktails",
+                "description": "The perfect aperitif Aperol, lemon juice, orange bitters, and sugar",
+                "price": 100,
+                "image": "/img/special/coctel.png"
+            },
+            "3":{
+                "label": "Cocktails",
+                "name": "Violet Rain",
+                "category": "cocktails",
+                "description": "The drink formerly known as Contempo Cointreau",
+                "price": 300,
+                "image": "/img/special/coctel.png"
+            },
+            "4":{
+                "label": "Cocktails",
+                "name": "Prosecco Paraiso",
+                "category": "cocktails",
+                "description": "A taste of paradise. Lychee and pomegranate liqueur",
+                "price": 200,
+                "image": "/img/special/coctel.png"
+            },
+            "5":{
+                "label": "Cocktails",
+                "name": "Temptation",
+                "category": "cocktails",
+                "description": "Fresh apples, Maker's bourbon, Applejack, and peach",
+                "price": 200,
+                "image": "/img/special/coctel.png"
+            },
+            "6":{
+                "label": "Cocktails",
+                "name": "Jasmine Abode",
+                "category": "cocktails",
+                "description": "South Gin gin, jasmine tea, Lillet Blanc, bénédictine with lychee",
+                "price": 300,
+                "image": "/img/special/coctel.png"
+            }
+        },
+        "postres":{
+            "1":{
+                "label": "Desserts",
+                "name": "Chocolate Dice",
+                "category": "desserts",
+                "description": "Brownies shaped like dice decorated with white chocolate icing dots.",
+                "price": 400,
+                "image": "/img/special/coctel.png"
+            },
+            "2":{
+                "label": "Desserts",
+                "name": "Strawberry Roulette",
+                "category": "desserts",
+                "description": "A strawberry tart in the shape of a roulette wheel, with slices of strawberries arranged around the edge to simulate the numbers.",
+                "price": 100,
+                "image": "/img/special/coctel.png"
+            },
+            "3":{
+                "label": "Desserts",
+                "name": "Raspberry Royal Flush Cake",
+                "category": "desserts",
+                "description": "A raspberry cake with layers of cream and raspberry glaze on top to represent a royal flush.",
+                "price": 300,
+                "image": "/img/special/coctel.png"
+            },
+            "4":{
+                "label": "Desserts",
+                "name": "Chocolate Caramel Jackpot",
+                "category": "desserts",
+                "description": "A decadent chocolate cake with a liquid caramel center that pours out like a jackpot when cut.",
+                "price": 200,
+                "image": "/img/special/coctel.png"
+            },
+            "5":{
+                "label": "Desserts",
+                "name": "Mint Lucky Clover Truffles",
+                "category": "desserts",
+                "description": "Mint-flavored chocolate truffles dusted with cocoa powder and decorated with a green sugar clover.",
+                "price": 200,
+                "image": "/img/special/coctel.png"
+            },
+            "6":{
+                "label": "Desserts",
+                "name": "Ice Cream Prize Mountain",
+                "category": "desserts",
+                "description": "A large ice cream sundae with a variety of toppings like nuts, grated chocolate, caramel sauce, and cherries on top, simulating a mountain of prizes.",
+                "price": 200,
+                "image": "/img/special/coctel.png"
+            }
+        },
+        "ninos":{
+            "1":{
+                "label": "Kids Menu",
+                "name": "Pizza Deck",
+                "category": "kids",
+                "description": "Make mini pizzas in the shape of poker cards using pizza dough and cookie cutters in the shape of hearts, diamonds, spades, and clubs.",
+                "price": 400,
+                "image": "/img/special/coctel.png"
+              },
+              "2":{
+                "label": "Kids Menu",
+                "name": "Mini Burger Roulette",
+                "category": "kids",
+                "description": "Mini burgers on a rotating tray to recreate the excitement of roulette.",
+                "price": 100,
+                "image": "/img/special/coctel.png"
+              },
+              "3":{
+                "label": "Kids Menu",
+                "name": "Dice Hot Dogs",
+                "category": "kids",
+                "description": "Make miniature hot dogs and cut them into small pieces to look like dice.",
+                "price": 300,
+                "image": "/img/special/coctel.png"
+              },
+              "4":{
+                "label": "Kids Menu",
+                "name": "Golden Nuggets",
+                "category": "kids",
+                "description": "Chicken or fish nuggets, served on plates decorated with gold glitter to simulate the luxury of winning at the casino",
+                "price": 200,
+                "image": "/img/special/coctel.png"
+              },
+              "5":{
+                "label": "Kids Menu",
+                "name": "Jackpot Cheese Sticks",
+                "category": "kids",
+                "description": "Homemade or store-bought cheese sticks and serve them on a dice-shaped plate. Kids can enjoy dipping them in marinara sauce or cheese sauce.",
+                "price": 200,
+                "image": "/img/special/coctel.png"
+            }
+          },
+        "acompañamientos":{
+            "1":{
+                "label": "Sides",
+                "name": "Spicy Sauce Russian Roulette",
+                "category": "sides",
+                "description": "Baked macaroni and cheese with a blend of gourmet cheeses and topped with crispy bread crumbs.",
+                "price": 400,
+                "image": "/img/special/coctel.png"
+            },
+            "2":{
+                "label": "Sides",
+                "name": "Golden Rings",
+                "category": "sides",
+                "description": "Golden and crispy onion rings that give a special touch to your meal.",
+                "price": 100,
+                "image": "/img/special/coctel.png"
+            },
+            "3":{
+                "label": "Sides",
+                "name": "Full House Salchipapas",
+                "category": "sides",
+                "description": "A winning combination of French fries and sausages, with a selection of various sauces to accompany",
+                "price": 300,
+                "image": "/img/special/coctel.png"
+            },
+            "4":{
+                "label": "Sides",
+                "name": "Green Vegas",
+                "category": "sides",
+                "description": "A vibrant salad with fresh and colorful ingredients, such as green leaves, cherry tomatoes, cucumber, cheese, and mango.",
+                "price": 200,
+                "image": "/img/special/coctel.png"
+            }
+        }
+    },
+    "BTN":{
+        "title":"See Menu ==",
+        "title2":"Reservations ==",
+        "title3":"Order Now | "
+    },
+    "Reservaciones": {
+        "title": "Reservations",
+        "text1": "Reserve your table at Lucky Food and enjoy an exceptional culinary experience. Our team will be delighted to assist you and ensure you have an unforgettable evening.",
+        "text2": "To make a reservation, please complete the following form and we will contact you to confirm your reservation.",
+        "input1": "Email",
+        "input2": "People",
+        "input3": "Date",
+        "input4": "Card Holder",
+        "input5": "Card Number",
+        "input6": "Billing Address"
+    }
+}

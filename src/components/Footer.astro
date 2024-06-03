@@ -1,63 +1,67 @@
 ---
 import Button from "./Button.astro"
 
+import { getI18N } from "../i18n";
+const { currentLocale } = Astro;
+const i18n = getI18N({ currentLocale });
+
 ---
 
-<footer class="bg-black/15">
+<footer class="bg-black/15" id="contact">
     <div class="mx-auto w-full max-w-screen-xl">
       <div class="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4">
         <div>
-            <h2 class="mb-2 text-center text-sm font-semibold uppercase text-white">La suerte esta en tu platillo</h2>
-            <img src="/img/Lucky-fotor-bg.png" alt="Logo" class="h-4/6  mx-auto">
+            <h2 class="mb-2 text-center text-sm font-semibold uppercase text-white"> {i18n.Footer.Title1} </h2>
+            <img src="/img/Lucky-fotor-bg.webp" alt="Logo" class="h-4/6  mx-auto">
         </div>
         <div>
-            <h2 class="mb-6 text-sm font-semibold uppercase text-white">Horario</h2>
+            <h2 class="mb-6 text-sm font-semibold uppercase text-white">{i18n.Footer.title2} </h2>
             <ul class="text-gray-400 font-medium">
                 <li class="mb-4">
-                    <a href="#" >Lun/Vie: 8pm a 2 am</a>
+                    <a href="#" >{i18n.Footer["2text1"]} </a>
                 </li>
                 <li class="mb-4">
-                    <a href="#" >Sabado 6pm a 2 am</a>
+                    <a href="#" >{i18n.Footer["2text2"]} </a>
                 </li>
                 <li class="mb-4">
-                    <a href="#" >Domingo 6pm a 12 am</a>
+                    <a href="#" >{i18n.Footer["2text3"]} </a>
                 </li>
             </ul>
         </div>
         <div>
-            <h2 class="mb-6 text-sm font-semibold  uppercase text-white">Menu</h2>
+            <h2 class="mb-6 text-sm font-semibold  uppercase text-white">{i18n.Footer.title3} </h2>
             <ul class="text-gray-400 font-medium">
                 <li class="mb-4">
-                    <a href="#" >Cocteles</a>
+                    <a href="#" >{i18n.Footer["3text1"]} </a>
                 </li>
                 <li class="mb-4">
-                    <a href="#" >Carnes</a>
+                    <a href="#" >{i18n.Footer["3text2"]} </a>
                 </li>
                 <li class="mb-4">
-                    <a href="#" >Postres</a>
+                    <a href="#" >{i18n.Footer["3text3"]} </a>
                 </li>
                 <li class="mb-4">
-                    <a href="#" >Bebidas</a>
+                    <a href="#" >{i18n.Footer["3text4"]} </a>
                 </li>
             </ul>
         </div>
         <div>
-            <h2 class="mb-6 text-sm font-semibold uppercase text-white">Legal</h2>
+            <h2 class="mb-6 text-sm font-semibold uppercase text-white">{i18n.Footer.title4} </h2>
             <ul class="text-gray-400 font-medium">
                 <li class="mb-4">
-                    <a id="button" class="hover:underline">Terms &amp; Conditions</a>
+                    <a id="button" class="hover:underline">{i18n.Footer["4text1"]}</a>
                 </li>
                 <li class="mb-4">
-                    <a>Privacy Policy</a>
+                    <a>{i18n.Footer["4text2"]}</a>
                 </li>
                 <li class="mb-4">
-                    <a >Licensing</a>
+                    <a >{i18n.Footer["4text3"]}</a>
                 </li>
             </ul>
         </div>
     </div>
     <div class="px-4 py-6 md:flex md:items-center md:justify-between">
-        <span class="text-sm text-gray-300 sm:text-center">© 2024 <a href="https://flowbite.com/">Lucky Food™</a>. All Rights Reserved.
+        <span class="text-sm text-gray-300 sm:text-center">{i18n.Footer.title5}
         </span>
         <div class="flex mt-4 sm:justify-center md:mt-0 space-x-5 rtl:space-x-reverse">
             <a href="#" class="text-gray-400 hover:text-white">

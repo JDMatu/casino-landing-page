@@ -15,6 +15,10 @@ export default {
 				'dorado-700': '#75660c',
 				'fondo': '13151a',
 			},
+			fontFamily: {
+				sofia: ["Sofia", "sans-serif"],
+			},
+			
 		},
 	},
 	plugins: [],

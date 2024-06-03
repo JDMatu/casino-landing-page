@@ -1,14 +1,16 @@
 ---
 
 import Card from '../components/Card.astro';
-
+import { getI18N } from "../i18n";
+const { currentLocale } = Astro;
+const i18n = getI18N({ currentLocale });
 ---
 
 <div class="h-fit w-fit content-center text-center mx-auto">
     <!-- Title -->
     <div class="my-3">
-        <h1 class="text-xl md:text-4xl font-serif gradient-text"> "Especial del Día"</h1>
-        <h2 class="text-sm md:text-xl px-6 md:w-1/2 mx-auto text-gray-300 text-wrap">Sorpréndete con nuestras especialidades del día, cuidadosamente seleccionadas y preparadas para brindarte una experiencia culinaria excepcional.</h2>
+        <h1 class="text-xl md:text-4xl font-serif gradient-text">{i18n.Special.title}</h1>
+        <h2 class="text-sm md:text-xl px-6 md:w-1/2 mx-auto text-gray-200 text-wrap">{i18n.Special.description}</h2>
     </div>
     <div class="">
         <Card />

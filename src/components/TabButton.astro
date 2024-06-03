@@ -1,0 +1,9 @@
+---
+const { id, target, label } = Astro.props;
+---
+
+<li class="me-2 inline-block" role="presentation">
+    <button class="inline-block p-4 border-b-2 rounded-t-lg hover:text-gray-400" id={`${id}-styled-tab`} data-tabs-target={`#styled-${target}`} type="button" role="tab" aria-controls={target} aria-selected="false">
+        {label}
+    </button>
+</li>

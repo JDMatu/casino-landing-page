@@ -22,11 +22,6 @@ const navItems = [
 
   },
   {
-    title: t('nav.#MVV'),
-    label: "MVV",
-    url: isInternalLink("#MVV") ? "#MVV" : getRelativeLocaleUrl(currentLocale, "#MVV"),
-  },
-  {
     title: t('nav.#menu'),
     label: "menu",
     url: isInternalLink("#menu") ? "#menu" : getRelativeLocaleUrl(currentLocale, "#menu"),
@@ -43,7 +38,8 @@ const navItems = [
   },
 ]
 
-
+import { getI18N } from "../i18n";
+const i18n = getI18N({ currentLocale });
 
 
 ---
@@ -52,7 +48,7 @@ const navItems = [
       <div class="relative flex h-16 items-center justify-between">
           <!-- Parte izquierda - Logo -->
           <div class="flex items-center">
-            <img src="/img/Lucky-fotor-bg.png" alt="Logo" class="h-12 w-20 mx-2">
+            <img src="/img/Lucky-fotor-bg.webp" alt="Logo" class="h-12 w-20 mx-2">
             <h1 class="text-4xl font-mono text-white">Lucky Food</h1>
           </div>
           <!-- Parte centro - Enlaces -->
@@ -84,7 +80,7 @@ const navItems = [
           <!-- Parte derecha - Botón de reservaciones -->
           <div class="hidden items-center md:flex">
                 <LanguagePicker />
-              <Button><a href="reservation">Reservaciones ==</a> </Button>
+              <Button><a href="reservation">{i18n.BTN.title2}</a> </Button>
           </div>
       </div>
   </div>
@@ -97,7 +93,7 @@ const navItems = [
                 ))
             }
             
-          <Button> <a href="reservation">Reservaciones ==</a> </Button>
+          <Button> <a href="reservation">{i18n.BTN.title2}</a> </Button>
 
       </div>
   </div>
