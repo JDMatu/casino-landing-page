@@ -16,7 +16,7 @@ export interface Product {
       category: {es:"hamburguesas", en:"burgers", fr:"burgers"},
       description: {es:"Una hamburguesa picante con queso pepper jack, jalapeños en rodajas y una salsa especial de chipotle", en:"A spicy burger with pepper jack cheese, sliced jalapeños, and a special chipotle sauce", fr:"Un burger épicé avec du fromage pepper jack, des jalapeños tranchés et une sauce chipotle spéciale"},
       price: 3500,
-      image: "/img/special/coctel.png"
+      image: "/img/foods/burger.webp"
     },
     {
       label: {es:"Hamburguesas",en:"Burgers",fr:"Burgers"},
@@ -24,7 +24,7 @@ export interface Product {
       category: {es:"hamburguesas", en:"burgers", fr:"burgers"},
       description: {es:"Una deliciosa combinación de jamón, piña a la parrilla, queso provolone y salsa teriyaki.", en:"A delicious combination of ham, grilled pineapple, provolone cheese, and teriyaki sauce.", fr:"Une délicieuse combinaison de jambon, ananas grillé, fromage provolone et sauce teriyaki."},
       price: 3800,
-      image: "/img/special/coctel.png"
+      image: "/img/foods/burger.webp"
     },
     {
       label: {es:"Hamburguesas",en:"Burgers",fr:"Burgers"},
@@ -32,7 +32,7 @@ export interface Product {
       category: {es:"hamburguesas", en:"burgers", fr:"burgers"},
       description: {es:"Una hamburguesa gourmet con queso azul, cebolla crujiente, y una reducción de vino tinto.", en:"A gourmet burger with blue cheese, crispy onions, and a red wine reduction.", fr:"Un burger gourmet avec du fromage bleu, des oignons croustillants et une réduction de vin rouge."},
       price: 4400,
-      image: "/img/special/coctel.png"
+      image: "/img/foods/burger.webp"
     },
     {
       label: {es:"Hamburguesas",en:"Burgers",fr:"Burgers"},
@@ -40,15 +40,15 @@ export interface Product {
       category: {es:"hamburguesas", en:"burgers", fr:"burgers"},
       description: {es:"Una hamburguesa de cerdo desmenuzado con salsa barbacoa casera, aros de cebolla y pepinillos.", en:"A pulled pork burger with homemade BBQ sauce, onion rings, and pickles.", fr:"Un burger de porc effiloché avec sauce BBQ maison, rondelles d'oignon et cornichons."},
       price: 3500,
-      image: "/img/special/coctel.png"
+      image: "/img/foods/burger.webp"
     },
     {
       label: {es:"Hamburguesas",en:"Burgers",fr:"Burgers"},
-      name: "Vegas Vic Volcano Burger",
+      name: "Vegas Volcano Burger",
       category: {es:"hamburguesas", en:"burgers", fr:"burgers"},
       description: {es:"Una hamburguesa explosiva con chili con carne, queso nacho fundido y jalapeños encurtidos", en:"An explosive burger with chili con carne, melted nacho cheese, and pickled jalapeños", fr:"Un burger explosif avec chili con carne, fromage nacho fondu et jalapeños marinés"},
       price: 3700,
-      image: "/img/special/coctel.png"
+      image: "/img/foods/burger.webp"
     },
     {
       label: {es:"Platillos fuertes", en:"Main dishes", fr:"Plats principaux"},
@@ -56,7 +56,7 @@ export interface Product {
       category: {es:"entradas", en:"appetizers", fr:"entrées"},
       description: {es:"Macarrones con queso horneados con una mezcla de quesos gourmet y cubiertos con migajas de pan crujientes.", en:"Macaroni and cheese baked with a blend of gourmet cheeses and topped with crispy bread crumbs.", fr:"Macaroni au fromage cuit au four avec un mélange de fromages gourmet et garni de chapelure croustillante."},
       price: 400,
-      image: "/img/special/coctel.png"
+      image: "/img/foods/burger.webp"
     },
     {
       label: {es:"Platillos fuertes", en:"Main dishes", fr:"Plats principaux"},
@@ -64,7 +64,7 @@ export interface Product {
       category: {es:"entradas", en:"appetizers", fr:"entrées"},
       description: {es:"Una paella española abundante con camarones, mejillones, calamares y chorizo, cocinados con azafrán y guisantes.", en:"A hearty Spanish paella with shrimp, mussels, calamari, and chorizo, cooked with saffron and peas.", fr:"Une paella espagnole copieuse avec des crevettes, des moules, des calmars et du chorizo, cuite avec du safran et des petits pois."},
       price: 100,
-      image: "/img/special/coctel.png"
+      image: "/img/foods/burger.webp"
     },
     {
       label: {es:"Platillos fuertes", en:"Main dishes", fr:"Plats principaux"},
@@ -72,7 +72,7 @@ export interface Product {
       category: {es:"entradas", en:"appetizers", fr:"entrées"},
       description: {es:"Filete de salmón a la parrilla con glaseado de bourbon y miel, acompañado de puré de coliflor y espárragos asados", en:"Grilled salmon fillet with bourbon and honey glaze, served with cauliflower puree and roasted asparagus", fr:"Filet de saumon grillé avec glaçage au bourbon et au miel, servi avec purée de chou-fleur et asperges rôties"},
       price: 300,
-      image: "/img/special/coctel.png"
+      image: "/img/foods/burger.webp"
     },
     {
       label: {es:"Platillos fuertes", en:"Main dishes", fr:"Plats principaux"},
@@ -80,7 +80,7 @@ export interface Product {
       category: {es:"entradas", en:"appetizers", fr:"entrées"},
       description: {es:"Un jugoso filete ribeye a la parrilla con una salsa de vino tinto y hierbas, acompañado de papas al gratén y espárragos grillados", en:"A juicy grilled ribeye steak with a red wine and herb sauce, served with scalloped potatoes and grilled asparagus", fr:"Un juteux steak de côte de bœuf grillé avec une sauce au vin rouge et aux herbes, servi avec des pommes de terre gratinées et des asperges grillées"},
       price: 200,
-      image: "/img/special/coctel.png"
+      image: "/img/foods/burger.webp"
     },
     {
       label: {es:"Pastas", en:"Pastas", fr:"Pâtes"},
@@ -88,7 +88,7 @@ export interface Product {
       category: {es:"pastas", en:"pastas", fr:"pâtes"},
       description: {es:"Penne cocidos al dente y mezclados con una salsa de tomate picante, salchichas italianas y pimientos, para dar un toque de emoción como en una partida de póker.", en:"Penne cooked al dente and mixed with a spicy tomato sauce, Italian sausage, and peppers, to add a touch of excitement like in a poker game.", fr:"Penne cuits al dente et mélangés avec une sauce tomate épicée, de la saucisse italienne et des poivrons, pour ajouter une touche d'excitation comme dans une partie de poker."},
       price: 400,
-      image: "/img/special/coctel.png"
+      image: "/img/special/pasta.webp"
     },
     {
       label: {es:"Pastas", en:"Pastas", fr:"Pâtes"},
@@ -96,7 +96,7 @@ export interface Product {
       category: {es:"pastas", en:"pastas", fr:"pâtes"},
       description: {es:"Rigatoni servidos con una salsa cremosa de vodka y tomate, con trozos de panceta crujiente para añadir un toque de riesgo", en:"Rigatoni served with a creamy vodka and tomato sauce, with crispy bacon pieces to add a touch of risk", fr:"Rigatoni servis avec une sauce crémeuse à la vodka et à la tomate, avec des morceaux de bacon croustillant pour ajouter une touche de risque"},
       price: 300,
-      image: "/img/special/coctel.png"
+      image: "/img/special/pasta.webp"
     },
     {
       label: {es:"Pastas", en:"Pastas", fr:"Pâtes"},
@@ -104,7 +104,7 @@ export interface Product {
       category: {es:"pastas", en:"pastas", fr:"pâtes"},
       description: {es:"Fettuccine cubiertos con una salsa de espinacas y queso parmesano, inspirados en el flop en una mesa de póker.", en:"Fettuccine covered with a spinach and parmesan cheese sauce, inspired by the flop on a poker table.", fr:"Fettuccine couverts d'une sauce aux épinards et au fromage parmesan, inspirés par le flop sur une table de poker."},
       price: 200,
-      image: "/img/special/coctel.png"
+      image: "/img/special/pasta.webp"
     },
     {
       label: {es:"Pastas", en:"Pastas", fr:"Pâtes"},
@@ -112,7 +112,7 @@ export interface Product {
       category: {es:"pastas", en:"pastas", fr:"pâtes"},
       description: {es:" Linguine con una cremosa salsa de gambas y vieiras, evocando la elegancia de los casinos de alta gama situados junto a lagos.", en:"Linguine with a creamy shrimp and scallop sauce, evoking the elegance of high-end casinos located next to lakes.", fr:"Linguine avec une sauce crémeuse aux crevettes et aux pétoncles, évoquant l'élégance des casinos haut de gamme situés à côté des lacs."},
       price: 200,
-      image: "/img/special/coctel.png"
+      image: "/img/special/pasta.webp"
     },
     {
       label: {es:"Pastas", en:"Pastas", fr:"Pâtes"},
@@ -120,7 +120,7 @@ export interface Product {
       category: {es:"pastas", en:"pastas", fr:"pâtes"},
       description: {es:"Spaghetti con una salsa de almejas y vino blanco, evocando la sensación de estar en la cima con una escalera real en la mano.", en:"Spaghetti with a clam and white wine sauce, evoking the feeling of being on top with a royal flush in hand.", fr:"Spaghetti avec une sauce aux palourdes et au vin blanc, évoquant le sentiment d'être au sommet avec une quinte flush royale en main."},
       price: 200,
-      image: "/img/special/coctel.png"
+      image: "/img/special/pasta.webp"
     },
     {
       label: {es:"Pastas", en:"Pastas", fr:"Pâtes"},
@@ -128,7 +128,7 @@ export interface Product {
       category: {es:"pastas", en:"pastas", fr:"pâtes"},
       description: {es:"Tortellini rellenos de queso ricotta y espinacas, bañados en una salsa de tomate casera, como un tesoro escondido en la mesa de un casino italiano.", en:"Tortellini filled with ricotta cheese and spinach, bathed in a homemade tomato sauce, like a treasure hidden on the table of an Italian casino.", fr:"Tortellini farcis au fromage ricotta et aux épinards, baignés dans une sauce tomate maison, comme un trésor caché sur la table d'un casino italien."},
       price: 200,
-      image: "/img/special/coctel.png"
+      image: "/img/special/pasta.webp"
     },
     {
       label: {es:"Cócteles", en:"Cocktails", fr:"Cocktails"},
@@ -136,7 +136,7 @@ export interface Product {
       category: {es:"cocteles", en:"cocktails", fr:"cocktails"},
       description: {es:"Vodka 42 Below, fernet Branca, licor de durazno y jugo de limón", en:"Vodka 42 Below, fernet Branca, peach liqueur, and lemon juice", fr:"Vodka 42 Below, fernet Branca, liqueur de pêche et jus de citron"},
       price: 400,
-      image: "/img/special/coctel.png"
+      image: "/img/foods/coctel.webp"
     },
     {
       label: {es:"Cócteles", en:"Cocktails", fr:"Cocktails"},
@@ -144,7 +144,7 @@ export interface Product {
       category: {es:"cocteles", en:"cocktails", fr:"cocktails"},
       description: {es:"El aperitivo perfecto Aperol, jugo de limón, bíteres de naranja y azúcar", en:"The perfect aperitif Aperol, lemon juice, orange bitters, and sugar", fr:"L'apéritif parfait Aperol, jus de citron, bitters d'orange et sucre"},
       price: 100,
-      image: "/img/special/coctel.png"
+      image: "/img/foods/coctel.webp"
     },
     {
       label: {es:"Cócteles", en:"Cocktails", fr:"Cocktails"},
@@ -152,7 +152,7 @@ export interface Product {
       category: {es:"cocteles", en:"cocktails", fr:"cocktails"},
       description: {es:"La bebida antes conocida como Contempo Cointreau", en:"The drink formerly known as Contempo Cointreau", fr:"La boisson autrefois connue sous le nom de Contempo Cointreau"},
       price: 300,
-      image: "/img/special/coctel.png"
+      image: "/img/foods/coctel.webp"
     },
     {
       label: {es:"Cócteles", en:"Cocktails", fr:"Cocktails"},
@@ -160,7 +160,7 @@ export interface Product {
       category: {es:"cocteles", en:"cocktails", fr:"cocktails"},
       description: {es:"Una probadita del paraíso. Lichi y licor de granada", en:"A taste of paradise. Lychee and pomegranate liqueur", fr:"Un avant-goût du paradis. Litchi et liqueur de grenade"},
       price: 200,
-      image: "/img/special/coctel.png"
+      image: "/img/foods/coctel.webp"
     },
     {
       label: {es:"Cócteles", en:"Cocktails", fr:"Cocktails"},
@@ -168,7 +168,7 @@ export interface Product {
       category: {es:"cocteles", en:"cocktails", fr:"cocktails"},
       description: {es:"Manzanas frescas, burbon Maker's, Applejack y durazno", en:"Fresh apples, Maker's bourbon, Applejack, and peach", fr:"Pommes fraîches, bourbon Maker's, Applejack et pêche"},
       price: 200,
-      image: "/img/special/coctel.png"
+      image: "/img/foods/coctel.webp"
     },
     {
       label: {es:"Cócteles", en:"Cocktails", fr:"Cocktails"},
@@ -176,7 +176,7 @@ export interface Product {
       category: {es:"cocteles", en:"cocktails", fr:"cocktails"},
       description: {es:"Ginebra South Gin, té de jazmín, Lillet Blanc, bénédictine con lichi", en:"South Ginebra Gin, jasmine tea, Lillet Blanc, Benedictine with lychee", fr:"Ginebra South Gin, thé au jasmin, Lillet Blanc, bénédictine avec litchi"},
       price: 300,
-      image: "/img/special/coctel.png"
+      image: "/img/foods/coctel.webp"
     },
     {
       label: {es:"Postres", en:"Desserts", fr:"Desserts"},

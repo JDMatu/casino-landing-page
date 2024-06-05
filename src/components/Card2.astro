@@ -10,6 +10,6 @@ const { ClassName, title, description, image, price } = Astro.props;
     <div class="flex flex-col justify-between p-4 leading-normal w-full">
         <h5 class="mb-2 text-2xl font-bold tracking-tight text-dorado-200">{title}</h5>
         <p class="mb-3 font-normal text-gray-300">{description}</p>
-        <span class="text-dorado-100 text-lg">${price}</span>
+        <span class="text-dorado-100 text-lg">₡{price}</span>
     </div>
 </article>

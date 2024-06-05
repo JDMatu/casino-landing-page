@@ -14,12 +14,11 @@ const categories = [...new Set(products.map(product => product.category[currentL
 
 <div class="bg-[url('/img/casino0.webp')] bg-cover">
     <div class="h-64 md:h-80 bg-black bg-opacity-30 justify-center">
-        <h1 class="text-4xl pt-20 font-serif font-bold text-dorado">{i18n.Menu.title}</h1>
-        <div class="mt-20 p-6">
+        <h1 class="text-4xl pt-12 md:pt-20 font-serif font-bold text-dorado">{i18n.Menu.title} </h1>
+        <div class="pb-2 mt-10 md:mt-20 p-6">
             <ul class="flex overflow-x-auto whitespace-nowrap -mb-px text-sm font-medium text-center justify-start md:justify-center" id="default-styled-tab" data-tabs-toggle="#default-styled-tab-content" data-tabs-active-classes="text-dorado border-dorado" data-tabs-inactive-classes="text-white" role="tablist">
                 {categories.map(category => (
                     <TabButton id={category} target={category} label={category.charAt(0).toUpperCase() + category.slice(1)} />
-                    
                 ))}
             </ul>
         </div>
@@ -31,7 +30,7 @@ const categories = [...new Set(products.map(product => product.category[currentL
         <div class="hidden p-4 rounded-lg" id={`styled-${category}`} role="tabpanel" aria-labelledby={`${category}-tab`}>
             {products.filter(product => product.category[currentLocale].toLowerCase() === category).map(product => (
                 <Card2 
-                    title={product.name[currentLocale]} 
+                    title={product.name} 
                     description={product.description[currentLocale]} 
                     price={product.price} 
                     image={product.image} 
