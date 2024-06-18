@@ -16,7 +16,7 @@ export interface Product {
       category: {es:"hamburguesas", en:"burgers", fr:"burgers"},
       description: {es:"Una hamburguesa picante con queso pepper jack, jalapeños en rodajas y una salsa especial de chipotle", en:"A spicy burger with pepper jack cheese, sliced jalapeños, and a special chipotle sauce", fr:"Un burger épicé avec du fromage pepper jack, des jalapeños tranchés et une sauce chipotle spéciale"},
       price: 3500,
-      image: "/img/foods/burger.webp"
+      image: "/img/special/burger.webp"
     },
     {
       label: {es:"Hamburguesas",en:"Burgers",fr:"Burgers"},
@@ -24,7 +24,7 @@ export interface Product {
       category: {es:"hamburguesas", en:"burgers", fr:"burgers"},
       description: {es:"Una deliciosa combinación de jamón, piña a la parrilla, queso provolone y salsa teriyaki.", en:"A delicious combination of ham, grilled pineapple, provolone cheese, and teriyaki sauce.", fr:"Une délicieuse combinaison de jambon, ananas grillé, fromage provolone et sauce teriyaki."},
       price: 3800,
-      image: "/img/foods/burger.webp"
+      image: "/img/special/burger.webp"
     },
     {
       label: {es:"Hamburguesas",en:"Burgers",fr:"Burgers"},
@@ -32,7 +32,7 @@ export interface Product {
       category: {es:"hamburguesas", en:"burgers", fr:"burgers"},
       description: {es:"Una hamburguesa gourmet con queso azul, cebolla crujiente, y una reducción de vino tinto.", en:"A gourmet burger with blue cheese, crispy onions, and a red wine reduction.", fr:"Un burger gourmet avec du fromage bleu, des oignons croustillants et une réduction de vin rouge."},
       price: 4400,
-      image: "/img/foods/burger.webp"
+      image: "/img/special/burger.webp"
     },
     {
       label: {es:"Hamburguesas",en:"Burgers",fr:"Burgers"},
@@ -40,7 +40,7 @@ export interface Product {
       category: {es:"hamburguesas", en:"burgers", fr:"burgers"},
       description: {es:"Una hamburguesa de cerdo desmenuzado con salsa barbacoa casera, aros de cebolla y pepinillos.", en:"A pulled pork burger with homemade BBQ sauce, onion rings, and pickles.", fr:"Un burger de porc effiloché avec sauce BBQ maison, rondelles d'oignon et cornichons."},
       price: 3500,
-      image: "/img/foods/burger.webp"
+      image: "/img/special/burger.webp"
     },
     {
       label: {es:"Hamburguesas",en:"Burgers",fr:"Burgers"},
@@ -48,7 +48,7 @@ export interface Product {
       category: {es:"hamburguesas", en:"burgers", fr:"burgers"},
       description: {es:"Una hamburguesa explosiva con chili con carne, queso nacho fundido y jalapeños encurtidos", en:"An explosive burger with chili con carne, melted nacho cheese, and pickled jalapeños", fr:"Un burger explosif avec chili con carne, fromage nacho fondu et jalapeños marinés"},
       price: 3700,
-      image: "/img/foods/burger.webp"
+      image: "/img/special/burger.webp"
     },
     {
       label: {es:"Platillos fuertes", en:"Main dishes", fr:"Plats principaux"},
@@ -56,7 +56,7 @@ export interface Product {
       category: {es:"entradas", en:"appetizers", fr:"entrées"},
       description: {es:"Macarrones con queso horneados con una mezcla de quesos gourmet y cubiertos con migajas de pan crujientes.", en:"Macaroni and cheese baked with a blend of gourmet cheeses and topped with crispy bread crumbs.", fr:"Macaroni au fromage cuit au four avec un mélange de fromages gourmet et garni de chapelure croustillante."},
       price: 400,
-      image: "/img/foods/burger.webp"
+      image: "/img/special/coctel.png"
     },
     {
       label: {es:"Platillos fuertes", en:"Main dishes", fr:"Plats principaux"},
@@ -64,7 +64,7 @@ export interface Product {
       category: {es:"entradas", en:"appetizers", fr:"entrées"},
       description: {es:"Una paella española abundante con camarones, mejillones, calamares y chorizo, cocinados con azafrán y guisantes.", en:"A hearty Spanish paella with shrimp, mussels, calamari, and chorizo, cooked with saffron and peas.", fr:"Une paella espagnole copieuse avec des crevettes, des moules, des calmars et du chorizo, cuite avec du safran et des petits pois."},
       price: 100,
-      image: "/img/foods/burger.webp"
+      image: "/img/special/coctel.png"
     },
     {
       label: {es:"Platillos fuertes", en:"Main dishes", fr:"Plats principaux"},
@@ -72,7 +72,7 @@ export interface Product {
       category: {es:"entradas", en:"appetizers", fr:"entrées"},
       description: {es:"Filete de salmón a la parrilla con glaseado de bourbon y miel, acompañado de puré de coliflor y espárragos asados", en:"Grilled salmon fillet with bourbon and honey glaze, served with cauliflower puree and roasted asparagus", fr:"Filet de saumon grillé avec glaçage au bourbon et au miel, servi avec purée de chou-fleur et asperges rôties"},
       price: 300,
-      image: "/img/foods/burger.webp"
+      image: "/img/special/coctel.png"
     },
     {
       label: {es:"Platillos fuertes", en:"Main dishes", fr:"Plats principaux"},
@@ -80,7 +80,7 @@ export interface Product {
       category: {es:"entradas", en:"appetizers", fr:"entrées"},
       description: {es:"Un jugoso filete ribeye a la parrilla con una salsa de vino tinto y hierbas, acompañado de papas al gratén y espárragos grillados", en:"A juicy grilled ribeye steak with a red wine and herb sauce, served with scalloped potatoes and grilled asparagus", fr:"Un juteux steak de côte de bœuf grillé avec une sauce au vin rouge et aux herbes, servi avec des pommes de terre gratinées et des asperges grillées"},
       price: 200,
-      image: "/img/foods/burger.webp"
+      image: "/img/special/coctel.png"
     },
     {
       label: {es:"Pastas", en:"Pastas", fr:"Pâtes"},
@@ -136,7 +136,7 @@ export interface Product {
       category: {es:"cocteles", en:"cocktails", fr:"cocktails"},
       description: {es:"Vodka 42 Below, fernet Branca, licor de durazno y jugo de limón", en:"Vodka 42 Below, fernet Branca, peach liqueur, and lemon juice", fr:"Vodka 42 Below, fernet Branca, liqueur de pêche et jus de citron"},
       price: 400,
-      image: "/img/foods/coctel.webp"
+      image: "/img/special/coctel.webp"
     },
     {
       label: {es:"Cócteles", en:"Cocktails", fr:"Cocktails"},
@@ -144,7 +144,7 @@ export interface Product {
       category: {es:"cocteles", en:"cocktails", fr:"cocktails"},
       description: {es:"El aperitivo perfecto Aperol, jugo de limón, bíteres de naranja y azúcar", en:"The perfect aperitif Aperol, lemon juice, orange bitters, and sugar", fr:"L'apéritif parfait Aperol, jus de citron, bitters d'orange et sucre"},
       price: 100,
-      image: "/img/foods/coctel.webp"
+      image: "/img/special/coctel.webp"
     },
     {
       label: {es:"Cócteles", en:"Cocktails", fr:"Cocktails"},
@@ -152,7 +152,7 @@ export interface Product {
       category: {es:"cocteles", en:"cocktails", fr:"cocktails"},
       description: {es:"La bebida antes conocida como Contempo Cointreau", en:"The drink formerly known as Contempo Cointreau", fr:"La boisson autrefois connue sous le nom de Contempo Cointreau"},
       price: 300,
-      image: "/img/foods/coctel.webp"
+      image: "/img/special/coctel.webp"
     },
     {
       label: {es:"Cócteles", en:"Cocktails", fr:"Cocktails"},
@@ -160,7 +160,7 @@ export interface Product {
       category: {es:"cocteles", en:"cocktails", fr:"cocktails"},
       description: {es:"Una probadita del paraíso. Lichi y licor de granada", en:"A taste of paradise. Lychee and pomegranate liqueur", fr:"Un avant-goût du paradis. Litchi et liqueur de grenade"},
       price: 200,
-      image: "/img/foods/coctel.webp"
+      image: "/img/special/coctel.webp"
     },
     {
       label: {es:"Cócteles", en:"Cocktails", fr:"Cocktails"},
@@ -168,7 +168,7 @@ export interface Product {
       category: {es:"cocteles", en:"cocktails", fr:"cocktails"},
       description: {es:"Manzanas frescas, burbon Maker's, Applejack y durazno", en:"Fresh apples, Maker's bourbon, Applejack, and peach", fr:"Pommes fraîches, bourbon Maker's, Applejack et pêche"},
       price: 200,
-      image: "/img/foods/coctel.webp"
+      image: "/img/special/coctel.webp"
     },
     {
       label: {es:"Cócteles", en:"Cocktails", fr:"Cocktails"},
@@ -176,7 +176,7 @@ export interface Product {
       category: {es:"cocteles", en:"cocktails", fr:"cocktails"},
       description: {es:"Ginebra South Gin, té de jazmín, Lillet Blanc, bénédictine con lichi", en:"South Ginebra Gin, jasmine tea, Lillet Blanc, Benedictine with lychee", fr:"Ginebra South Gin, thé au jasmin, Lillet Blanc, bénédictine avec litchi"},
       price: 300,
-      image: "/img/foods/coctel.webp"
+      image: "/img/special/coctel.webp"
     },
     {
       label: {es:"Postres", en:"Desserts", fr:"Desserts"},
@@ -184,7 +184,7 @@ export interface Product {
       category: {es:"postres", en:"desserts", fr:"desserts"},
       description: {es:"Brownies en forma de dados decorados con puntos blancos de glaseado de chocolate.", en:"Brownies shaped like dice decorated with white chocolate icing dots.", fr:"Brownies en forme de dés décorés de points de glaçage au chocolat blanc."},
       price: 400,
-      image: "/img/special/coctel.png"
+      image: "/img/special/postre.webp"
     },
     {
       label: {es:"Postres", en:"Desserts", fr:"Desserts"},
@@ -192,7 +192,7 @@ export interface Product {
       category: {es:"postres", en:"desserts", fr:"desserts"},
       description: {es:"Una tarta de fresas con forma de ruleta, con rodajas de fresas dispuestas alrededor del borde para simular los números.", en:"A strawberry tart shaped like a roulette wheel, with strawberry slices arranged around the edge to simulate the numbers.", fr:"Une tarte aux fraises en forme de roue de roulette, avec des tranches de fraises disposées autour du bord pour simuler les numéros."},
       price: 100,
-      image: "/img/special/coctel.png"
+      image: "/img/special/postre.webp"
     },
     {
       label: {es:"Postres", en:"Desserts", fr:"Desserts"},
@@ -200,7 +200,7 @@ export interface Product {
       category: {es:"postres", en:"desserts", fr:"desserts"},
       description: {es:"Una tarta de frambuesa con capas de crema y glaseado de frambuesa en la parte superior para representar un flush real.", en:"A raspberry tart with layers of cream and raspberry icing on top to represent a royal flush.", fr:"Une tarte aux framboises avec des couches de crème et de glaçage aux framboises sur le dessus pour représenter une quinte flush royale."},
       price: 300,
-      image: "/img/special/coctel.png"
+      image: "/img/special/postre.webp"
     },
     {
       label: {es:"Postres", en:"Desserts", fr:"Desserts"},
@@ -208,7 +208,7 @@ export interface Product {
       category: {es:"postres", en:"desserts", fr:"desserts"},
       description: {es:"Un pastel de chocolate decadente con un centro de caramelo líquido que se vierte como un jackpot al cortarlo.", en:"A decadent chocolate cake with a liquid caramel center that pours out like a jackpot when cut.", fr:"Un gâteau au chocolat décadent avec un centre de caramel liquide qui se verse comme un jackpot lorsqu'il est coupé."},
       price: 200,
-      image: "/img/special/coctel.png"
+      image: "/img/special/postre.webp"
     },
     {
       label: {es:"Postres", en:"Desserts", fr:"Desserts"},
@@ -216,7 +216,7 @@ export interface Product {
       category: {es:"postres", en:"desserts", fr:"desserts"},
       description: {es:"Trufas de chocolate con sabor a menta cubiertas de polvo de cacao y decoradas con un trébol de azúcar verde.", en:"Mint-flavored chocolate truffles covered in cocoa powder and decorated with a green sugar shamrock.", fr:"Truffes au chocolat à la menthe couvertes de poudre de cacao et décorées d'un trèfle en sucre vert."},
       price: 200,
-      image: "/img/special/coctel.png"
+      image: "/img/special/postre.webp"
     },
     {
       label: {es:"Postres", en:"Desserts", fr:"Desserts"},
@@ -224,7 +224,7 @@ export interface Product {
       category: {es:"postres", en:"desserts", fr:"desserts"},
       description: {es:"Una gran copa de helado con una variedad de toppings como nueces, chocolate rallado, salsa de caramelo y cerezas en la cima, simulando una montaña de premios.", en:"A large sundae with a variety of toppings like nuts, grated chocolate, caramel sauce, and cherries on top, simulating a mountain of prizes.", fr:"Un grand sundae avec une variété de garnitures comme des noix, du chocolat râpé, de la sauce caramel et des cerises sur le dessus, simulant une montagne de prix."},
       price: 200,
-      image: "/img/special/coctel.png"
+      image: "/img/special/postre.webp"
     },
     {
       label: {es:"Menú de niños", en:"Kids Menu", fr:"Menu Enfants"},
