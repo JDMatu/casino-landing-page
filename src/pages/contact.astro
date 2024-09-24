@@ -1,0 +1,24 @@
+---
+// No necesitas cargar ningún JS en el cliente
+// Todo se procesará en el servidor.
+---
+<html>
+  <head>
+    <title>Contact Us | SmartCoop</title>
+  </head>
+  <body>
+    <h1>Contact Us</h1>
+    <form method="POST" action="/api/send-email">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="message">Description</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <button type="submit">Send</button>
+    </form>
+  </body>
+</html>
